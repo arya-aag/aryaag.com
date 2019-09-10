@@ -1,23 +1,39 @@
 {
   "name": "aryaag.com",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "history": "^4.7.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-redux": "^5.0.6",
-    "react-router-dom": "^4.2.2",
-    "react-router-redux": "^5.0.0-alpha.9",
-    "react-scripts": "1.1.0",
-    "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
-  },
+  "version": "1.0.0",
+  "description": "source code for aryaag.com",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --progress"
   },
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arya-aag/aryaag.com.git"
+  },
+  "author": "Arya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arya-aag/aryaag.com/issues"
+  },
+  "homepage": "https://github.com/arya-aag/aryaag.com#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3"
+  }
 }
